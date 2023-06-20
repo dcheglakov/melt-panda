@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { stack } from 'styled-system/patterns';
+	import { container } from 'styled-system/patterns';
 </script>
 
-<main class={stack({ gap: '4' })}>
+<main class={container()}>
 	<slot />
 </main>
